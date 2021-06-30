@@ -15,6 +15,7 @@
 		7090BE4B268CDF32007BDFBA /* Paal_Kanakku.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE49268CDF32007BDFBA /* Paal_Kanakku.xcdatamodeld */; };
 		7090BE56268CDF32007BDFBA /* Paal_KanakkuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE55268CDF32007BDFBA /* Paal_KanakkuTests.swift */; };
 		7090BE61268CDF32007BDFBA /* Paal_KanakkuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE60268CDF32007BDFBA /* Paal_KanakkuUITests.swift */; };
+		7090BE6F268CE745007BDFBA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE6E268CE745007BDFBA /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7090BE5C268CDF32007BDFBA /* Paal KanakkuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paal KanakkuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7090BE60268CDF32007BDFBA /* Paal_KanakkuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paal_KanakkuUITests.swift; sourceTree = "<group>"; };
 		7090BE62268CDF32007BDFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7090BE6E268CE745007BDFBA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7090BE4C268CDF32007BDFBA /* Info.plist */,
 				7090BE49268CDF32007BDFBA /* Paal_Kanakku.xcdatamodeld */,
 				7090BE44268CDF32007BDFBA /* Preview Content */,
+				7090BE6E268CE745007BDFBA /* Home.swift */,
 			);
 			path = "Paal Kanakku";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				7090BE4B268CDF32007BDFBA /* Paal_Kanakku.xcdatamodeld in Sources */,
 				7090BE48268CDF32007BDFBA /* Persistence.swift in Sources */,
+				7090BE6F268CE745007BDFBA /* Home.swift in Sources */,
 				7090BE41268CDF31007BDFBA /* ContentView.swift in Sources */,
 				7090BE3F268CDF31007BDFBA /* Paal_KanakkuApp.swift in Sources */,
 			);
