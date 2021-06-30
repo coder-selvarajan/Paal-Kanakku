@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7090BE3F268CDF31007BDFBA /* Paal_KanakkuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE3E268CDF31007BDFBA /* Paal_KanakkuApp.swift */; };
+		7090BE41268CDF31007BDFBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE40268CDF31007BDFBA /* ContentView.swift */; };
+		7090BE43268CDF32007BDFBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7090BE42268CDF32007BDFBA /* Assets.xcassets */; };
+		7090BE46268CDF32007BDFBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7090BE45268CDF32007BDFBA /* Preview Assets.xcassets */; };
+		7090BE48268CDF32007BDFBA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE47268CDF32007BDFBA /* Persistence.swift */; };
+		7090BE4B268CDF32007BDFBA /* Paal_Kanakku.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE49268CDF32007BDFBA /* Paal_Kanakku.xcdatamodeld */; };
+		7090BE56268CDF32007BDFBA /* Paal_KanakkuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE55268CDF32007BDFBA /* Paal_KanakkuTests.swift */; };
+		7090BE61268CDF32007BDFBA /* Paal_KanakkuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE60268CDF32007BDFBA /* Paal_KanakkuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7090BE52268CDF32007BDFBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7090BE33268CDF31007BDFBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7090BE3A268CDF31007BDFBA;
+			remoteInfo = "Paal Kanakku";
+		};
+		7090BE5D268CDF32007BDFBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7090BE33268CDF31007BDFBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7090BE3A268CDF31007BDFBA;
+			remoteInfo = "Paal Kanakku";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7090BE3B268CDF31007BDFBA /* Paal Kanakku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paal Kanakku.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7090BE3E268CDF31007BDFBA /* Paal_KanakkuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paal_KanakkuApp.swift; sourceTree = "<group>"; };
+		7090BE40268CDF31007BDFBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7090BE42268CDF32007BDFBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7090BE45268CDF32007BDFBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7090BE47268CDF32007BDFBA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7090BE4A268CDF32007BDFBA /* Paal_Kanakku.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Paal_Kanakku.xcdatamodel; sourceTree = "<group>"; };
+		7090BE4C268CDF32007BDFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7090BE51268CDF32007BDFBA /* Paal KanakkuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paal KanakkuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7090BE55268CDF32007BDFBA /* Paal_KanakkuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paal_KanakkuTests.swift; sourceTree = "<group>"; };
+		7090BE57268CDF32007BDFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7090BE5C268CDF32007BDFBA /* Paal KanakkuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paal KanakkuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7090BE60268CDF32007BDFBA /* Paal_KanakkuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paal_KanakkuUITests.swift; sourceTree = "<group>"; };
+		7090BE62268CDF32007BDFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7090BE38268CDF31007BDFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7090BE4E268CDF32007BDFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7090BE59268CDF32007BDFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7090BE32268CDF31007BDFBA = {
+			isa = PBXGroup;
+			children = (
+				7090BE3D268CDF31007BDFBA /* Paal Kanakku */,
+				7090BE54268CDF32007BDFBA /* Paal KanakkuTests */,
+				7090BE5F268CDF32007BDFBA /* Paal KanakkuUITests */,
+				7090BE3C268CDF31007BDFBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7090BE3C268CDF31007BDFBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7090BE3B268CDF31007BDFBA /* Paal Kanakku.app */,
+				7090BE51268CDF32007BDFBA /* Paal KanakkuTests.xctest */,
+				7090BE5C268CDF32007BDFBA /* Paal KanakkuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7090BE3D268CDF31007BDFBA /* Paal Kanakku */ = {
+			isa = PBXGroup;
+			children = (
+				7090BE3E268CDF31007BDFBA /* Paal_KanakkuApp.swift */,
+				7090BE40268CDF31007BDFBA /* ContentView.swift */,
+				7090BE42268CDF32007BDFBA /* Assets.xcassets */,
+				7090BE47268CDF32007BDFBA /* Persistence.swift */,
+				7090BE4C268CDF32007BDFBA /* Info.plist */,
+				7090BE49268CDF32007BDFBA /* Paal_Kanakku.xcdatamodeld */,
+				7090BE44268CDF32007BDFBA /* Preview Content */,
+			);
+			path = "Paal Kanakku";
+			sourceTree = "<group>";
+		};
+		7090BE44268CDF32007BDFBA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7090BE45268CDF32007BDFBA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7090BE54268CDF32007BDFBA /* Paal KanakkuTests */ = {
+			isa = PBXGroup;
+			children = (
+				7090BE55268CDF32007BDFBA /* Paal_KanakkuTests.swift */,
+				7090BE57268CDF32007BDFBA /* Info.plist */,
+			);
+			path = "Paal KanakkuTests";
+			sourceTree = "<group>";
+		};
+		7090BE5F268CDF32007BDFBA /* Paal KanakkuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7090BE60268CDF32007BDFBA /* Paal_KanakkuUITests.swift */,
+				7090BE62268CDF32007BDFBA /* Info.plist */,
+			);
+			path = "Paal KanakkuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7090BE3A268CDF31007BDFBA /* Paal Kanakku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7090BE65268CDF32007BDFBA /* Build configuration list for PBXNativeTarget "Paal Kanakku" */;
+			buildPhases = (
+				7090BE37268CDF31007BDFBA /* Sources */,
+				7090BE38268CDF31007BDFBA /* Frameworks */,
+				7090BE39268CDF31007BDFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Paal Kanakku";
+			productName = "Paal Kanakku";
+			productReference = 7090BE3B268CDF31007BDFBA /* Paal Kanakku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7090BE50268CDF32007BDFBA /* Paal KanakkuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7090BE68268CDF32007BDFBA /* Build configuration list for PBXNativeTarget "Paal KanakkuTests" */;
+			buildPhases = (
+				7090BE4D268CDF32007BDFBA /* Sources */,
+				7090BE4E268CDF32007BDFBA /* Frameworks */,
+				7090BE4F268CDF32007BDFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7090BE53268CDF32007BDFBA /* PBXTargetDependency */,
+			);
+			name = "Paal KanakkuTests";
+			productName = "Paal KanakkuTests";
+			productReference = 7090BE51268CDF32007BDFBA /* Paal KanakkuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7090BE5B268CDF32007BDFBA /* Paal KanakkuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7090BE6B268CDF32007BDFBA /* Build configuration list for PBXNativeTarget "Paal KanakkuUITests" */;
+			buildPhases = (
+				7090BE58268CDF32007BDFBA /* Sources */,
+				7090BE59268CDF32007BDFBA /* Frameworks */,
+				7090BE5A268CDF32007BDFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7090BE5E268CDF32007BDFBA /* PBXTargetDependency */,
+			);
+			name = "Paal KanakkuUITests";
+			productName = "Paal KanakkuUITests";
+			productReference = 7090BE5C268CDF32007BDFBA /* Paal KanakkuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7090BE33268CDF31007BDFBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7090BE3A268CDF31007BDFBA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7090BE50268CDF32007BDFBA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7090BE3A268CDF31007BDFBA;
+					};
+					7090BE5B268CDF32007BDFBA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7090BE3A268CDF31007BDFBA;
+					};
+				};
+			};
+			buildConfigurationList = 7090BE36268CDF31007BDFBA /* Build configuration list for PBXProject "Paal Kanakku" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7090BE32268CDF31007BDFBA;
+			productRefGroup = 7090BE3C268CDF31007BDFBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7090BE3A268CDF31007BDFBA /* Paal Kanakku */,
+				7090BE50268CDF32007BDFBA /* Paal KanakkuTests */,
+				7090BE5B268CDF32007BDFBA /* Paal KanakkuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7090BE39268CDF31007BDFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7090BE46268CDF32007BDFBA /* Preview Assets.xcassets in Resources */,
+				7090BE43268CDF32007BDFBA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7090BE4F268CDF32007BDFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7090BE5A268CDF32007BDFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7090BE37268CDF31007BDFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7090BE4B268CDF32007BDFBA /* Paal_Kanakku.xcdatamodeld in Sources */,
+				7090BE48268CDF32007BDFBA /* Persistence.swift in Sources */,
+				7090BE41268CDF31007BDFBA /* ContentView.swift in Sources */,
+				7090BE3F268CDF31007BDFBA /* Paal_KanakkuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7090BE4D268CDF32007BDFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7090BE56268CDF32007BDFBA /* Paal_KanakkuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7090BE58268CDF32007BDFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7090BE61268CDF32007BDFBA /* Paal_KanakkuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7090BE53268CDF32007BDFBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7090BE3A268CDF31007BDFBA /* Paal Kanakku */;
+			targetProxy = 7090BE52268CDF32007BDFBA /* PBXContainerItemProxy */;
+		};
+		7090BE5E268CDF32007BDFBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7090BE3A268CDF31007BDFBA /* Paal Kanakku */;
+			targetProxy = 7090BE5D268CDF32007BDFBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7090BE63268CDF32007BDFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7090BE64268CDF32007BDFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7090BE66268CDF32007BDFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Paal Kanakku/Preview Content\"";
+				DEVELOPMENT_TEAM = G6KL98HCPY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Paal Kanakku/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coderselvarajan.Paal-Kanakku";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7090BE67268CDF32007BDFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Paal Kanakku/Preview Content\"";
+				DEVELOPMENT_TEAM = G6KL98HCPY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Paal Kanakku/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coderselvarajan.Paal-Kanakku";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7090BE69268CDF32007BDFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6KL98HCPY;
+				INFOPLIST_FILE = "Paal KanakkuTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coderselvarajan.Paal-KanakkuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paal Kanakku.app/Paal Kanakku";
+			};
+			name = Debug;
+		};
+		7090BE6A268CDF32007BDFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6KL98HCPY;
+				INFOPLIST_FILE = "Paal KanakkuTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coderselvarajan.Paal-KanakkuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paal Kanakku.app/Paal Kanakku";
+			};
+			name = Release;
+		};
+		7090BE6C268CDF32007BDFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6KL98HCPY;
+				INFOPLIST_FILE = "Paal KanakkuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coderselvarajan.Paal-KanakkuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paal Kanakku";
+			};
+			name = Debug;
+		};
+		7090BE6D268CDF32007BDFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6KL98HCPY;
+				INFOPLIST_FILE = "Paal KanakkuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coderselvarajan.Paal-KanakkuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paal Kanakku";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7090BE36268CDF31007BDFBA /* Build configuration list for PBXProject "Paal Kanakku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7090BE63268CDF32007BDFBA /* Debug */,
+				7090BE64268CDF32007BDFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7090BE65268CDF32007BDFBA /* Build configuration list for PBXNativeTarget "Paal Kanakku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7090BE66268CDF32007BDFBA /* Debug */,
+				7090BE67268CDF32007BDFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7090BE68268CDF32007BDFBA /* Build configuration list for PBXNativeTarget "Paal KanakkuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7090BE69268CDF32007BDFBA /* Debug */,
+				7090BE6A268CDF32007BDFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7090BE6B268CDF32007BDFBA /* Build configuration list for PBXNativeTarget "Paal KanakkuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7090BE6C268CDF32007BDFBA /* Debug */,
+				7090BE6D268CDF32007BDFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7090BE49268CDF32007BDFBA /* Paal_Kanakku.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7090BE4A268CDF32007BDFBA /* Paal_Kanakku.xcdatamodel */,
+			);
+			currentVersion = 7090BE4A268CDF32007BDFBA /* Paal_Kanakku.xcdatamodel */;
+			path = Paal_Kanakku.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7090BE33268CDF31007BDFBA /* Project object */;
+}
