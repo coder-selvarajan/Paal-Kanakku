@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		705439F6268EBFFA00B638FE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705439F5268EBFFA00B638FE /* Home.swift */; };
+		7055AC842690A8D000209444 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7055AC832690A8D000209444 /* Product.swift */; };
+		7055AC872690CD0000209444 /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7055AC862690CD0000209444 /* GlobalHelpers.swift */; };
 		7090BE3F268CDF31007BDFBA /* Paal_KanakkuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE3E268CDF31007BDFBA /* Paal_KanakkuApp.swift */; };
 		7090BE41268CDF31007BDFBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE40268CDF31007BDFBA /* ContentView.swift */; };
 		7090BE43268CDF32007BDFBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7090BE42268CDF32007BDFBA /* Assets.xcassets */; };
@@ -15,7 +18,7 @@
 		7090BE4B268CDF32007BDFBA /* Paal_Kanakku.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE49268CDF32007BDFBA /* Paal_Kanakku.xcdatamodeld */; };
 		7090BE56268CDF32007BDFBA /* Paal_KanakkuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE55268CDF32007BDFBA /* Paal_KanakkuTests.swift */; };
 		7090BE61268CDF32007BDFBA /* Paal_KanakkuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE60268CDF32007BDFBA /* Paal_KanakkuUITests.swift */; };
-		7090BE6F268CE745007BDFBA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE6E268CE745007BDFBA /* Home.swift */; };
+		7090BE6F268CE745007BDFBA /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090BE6E268CE745007BDFBA /* LaunchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		705439F5268EBFFA00B638FE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7055AC832690A8D000209444 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		7055AC862690CD0000209444 /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
 		7090BE3B268CDF31007BDFBA /* Paal Kanakku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paal Kanakku.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7090BE3E268CDF31007BDFBA /* Paal_KanakkuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paal_KanakkuApp.swift; sourceTree = "<group>"; };
 		7090BE40268CDF31007BDFBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,7 +56,7 @@
 		7090BE5C268CDF32007BDFBA /* Paal KanakkuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paal KanakkuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7090BE60268CDF32007BDFBA /* Paal_KanakkuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paal_KanakkuUITests.swift; sourceTree = "<group>"; };
 		7090BE62268CDF32007BDFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7090BE6E268CE745007BDFBA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7090BE6E268CE745007BDFBA /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7055AC822690A4DE00209444 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7055AC832690A8D000209444 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7055AC852690CCED00209444 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7055AC862690CD0000209444 /* GlobalHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		7090BE32268CDF31007BDFBA = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +123,8 @@
 		7090BE3D268CDF31007BDFBA /* Paal Kanakku */ = {
 			isa = PBXGroup;
 			children = (
+				7055AC852690CCED00209444 /* Helpers */,
+				7055AC822690A4DE00209444 /* Model */,
 				7090BE3E268CDF31007BDFBA /* Paal_KanakkuApp.swift */,
 				7090BE40268CDF31007BDFBA /* ContentView.swift */,
 				7090BE42268CDF32007BDFBA /* Assets.xcassets */,
@@ -108,7 +132,8 @@
 				7090BE4C268CDF32007BDFBA /* Info.plist */,
 				7090BE49268CDF32007BDFBA /* Paal_Kanakku.xcdatamodeld */,
 				7090BE44268CDF32007BDFBA /* Preview Content */,
-				7090BE6E268CE745007BDFBA /* Home.swift */,
+				7090BE6E268CE745007BDFBA /* LaunchScreen.swift */,
+				705439F5268EBFFA00B638FE /* Home.swift */,
 			);
 			path = "Paal Kanakku";
 			sourceTree = "<group>";
@@ -270,8 +295,11 @@
 			files = (
 				7090BE4B268CDF32007BDFBA /* Paal_Kanakku.xcdatamodeld in Sources */,
 				7090BE48268CDF32007BDFBA /* Persistence.swift in Sources */,
-				7090BE6F268CE745007BDFBA /* Home.swift in Sources */,
+				7055AC872690CD0000209444 /* GlobalHelpers.swift in Sources */,
+				7090BE6F268CE745007BDFBA /* LaunchScreen.swift in Sources */,
 				7090BE41268CDF31007BDFBA /* ContentView.swift in Sources */,
+				7055AC842690A8D000209444 /* Product.swift in Sources */,
+				705439F6268EBFFA00B638FE /* Home.swift in Sources */,
 				7090BE3F268CDF31007BDFBA /* Paal_KanakkuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
