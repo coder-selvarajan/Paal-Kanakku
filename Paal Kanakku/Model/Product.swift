@@ -14,7 +14,9 @@ struct Product: Identifiable {
     var description: String
     var price: String
     
+    var imageIcon: String
     var smallImageIcon: String
+    var smallImageIconMultiple: String
     var mediumImageIcon: String
     
 }

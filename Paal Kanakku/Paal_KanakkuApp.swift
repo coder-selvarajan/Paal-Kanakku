@@ -13,7 +13,7 @@ struct Paal_KanakkuApp: App {
 
     var body: some Scene {
         WindowGroup {
-            LaunchScreen()
+            HomeView()
 //            ContentView()
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
