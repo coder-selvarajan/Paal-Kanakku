@@ -55,10 +55,9 @@ struct HomeView: View {
         let firstMonthDate = dateFormatter.date(from: dateString)!
         self.currentMonth = firstMonthDate
         
-//        self.entries = vm.getEntries(forMonth: "June")
         self.daysinMonth = vm.getDaysCountForMonth(yr: year, mon: month)
         self.firstDay = Calendar.current.component(.weekday, from: firstMonthDate)
-        
+    
         if ((firstDay + daysinMonth) <= 36) {
             self.noofSquares = 35
         }
@@ -70,6 +69,27 @@ struct HomeView: View {
         self.currentMonthName = dateFormatter.string(from: currentMonth)
     }
     
+    func getFirstRowIcons(day: Int) -> [String]{
+        var rowIcons : [String] = []
+        for (key,value) in vm.getDayEntries(day: day - self.firstDay + 1, currentMonth: self.currentMonth) {
+            if ( key == "row1") {
+                rowIcons = value
+            }
+        }
+        
+        return rowIcons
+    }
+    
+    func getSecondRowIcons(day: Int) -> [String]{
+        var rowIcons : [String] = []
+        for (key,value) in vm.getDayEntries(day: day - self.firstDay + 1, currentMonth: self.currentMonth) {
+            if ( key == "row2") {
+                rowIcons = value
+            }
+        }
+        
+        return rowIcons
+    }
     var body: some View {
         
         VStack {
@@ -102,12 +122,11 @@ struct HomeView: View {
                 LazyVGrid(columns: gridItemLayout, spacing: 2) {
                     ForEach(1...self.noofSquares, id: \.self) { index in
                         Button(action: {
-//                            print(self.entries)
+                            //                            print(self.entries)
                         }, label: {
                             
                             VStack {
                                 if ((index - self.firstDay) < 0 || (index - self.firstDay) >= self.daysinMonth ) {
-//                                    print("firstDay \(self.firstDay), daysinMonth \(self.daysinMonth)")
                                     HStack {
                                         Text("...")
                                             .foregroundColor(.orange.opacity(0.85))
@@ -120,25 +139,28 @@ struct HomeView: View {
                                         Text("\(index - self.firstDay + 1)")
                                             .foregroundColor(.orange.opacity(0.85))
                                         Spacer()
+                                        
                                     }
                                     Spacer()
                                     
                                     VStack(alignment: .trailing) {
                                         HStack(spacing: 0) {
                                             Spacer()
-                                            Image(systemName: symbols[index % symbols.count])
-                                                .font(.system(size: 7))
+                                            
+                                            ForEach(getFirstRowIcons(day: index), id: \.self) { img in
+                                                Image(systemName: img)
+                                                    .font(.system(size: 7))
+                                            }
                                         }.padding(.horizontal, 2)
                                         
                                         Spacer()
                                         HStack(spacing: 3) {
                                             Spacer()
-                                            Image(systemName: symbols[index % symbols.count])
-                                                .font(.system(size: 7))
-                                            Image(systemName: symbols[index % symbols.count])
-                                                .font(.system(size: 7))
-                                            Image(systemName: symbols[index % symbols.count])
-                                                .font(.system(size: 7))
+                                            
+                                            ForEach(getSecondRowIcons(day: index), id: \.self) { img in
+                                                Image(systemName: img)
+                                                    .font(.system(size: 7))
+                                            }
                                         }
                                         .padding(.horizontal, 2)
                                     }
